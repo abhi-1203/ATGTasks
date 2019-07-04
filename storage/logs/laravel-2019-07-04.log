@@ -1,0 +1,4 @@
+[2019-07-04 09:01:00] local.INFO: success,EMAIL SENT  
+[2019-07-04 09:01:15] local.INFO: success,EMAIL SENT  
+[2019-07-04 09:01:27] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-04 09:01:37] local.INFO: success,EMAIL SENT  

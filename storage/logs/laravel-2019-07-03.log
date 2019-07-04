@@ -1,0 +1,14 @@
+[2019-07-03 14:41:23] local.INFO: success,EMAIL SENT  
+[2019-07-03 14:41:24] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-03 14:42:03] local.INFO: success,EMAIL SENT  
+[2019-07-03 14:42:32] local.INFO: success,EMAIL SENT  
+[2019-07-03 14:44:59] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-03 14:45:00] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-03 15:16:40] local.INFO: success,EMAIL SENT  
+[2019-07-03 16:12:59] local.INFO: success,EMAIL SENT  
+[2019-07-03 16:13:00] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-03 16:13:30] local.INFO: success,EMAIL SENT  
+[2019-07-03 16:16:16] local.INFO: success,EMAIL SENT  
+[2019-07-03 16:17:04] local.INFO: success,EMAIL SENT  
+[2019-07-03 16:18:03] local.ERROR: Unsuccessful,EMAIL NOT SENT  
+[2019-07-03 16:18:17] local.INFO: success,EMAIL SENT  
