@@ -1,3 +1,5 @@
+// Validate function to validate form.
+
 function validate()
 {
  var error="";
