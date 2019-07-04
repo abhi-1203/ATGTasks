@@ -1,3 +1,5 @@
+//JS function for posting form data to the controller
+
 $.ajaxSetup({
 
         headers: {
@@ -20,25 +22,25 @@ $(document).ready(function(){
       $.ajax({
         cache:false,
        
-        url : "/api/usersstore",
+        url : "/api/usersstore", //calls the API function store
         method: "POST",
         data  :{name:name,email:email,pincode:pincode},
-        success :function(data){
+        success :function(data){ //on successful insertion, 1 is returned in json format.
 
                   if(data == 1){
                     if ($("#danger").show()){
                       $("#danger").hide();  
                     }
 
-                    $("#success").show();
-                    document.forms["form"].reset();
+                    $("#success").show(); //triggers the success message for 1.2 secs
+                     document.forms["form"].reset(); //resets the form
                     setTimeout(function() { $("#success").hide(); }, 1200);
                   } else{
                       if ($("#success").show()){
                         $("#success").hide();  
                       }
 
-                      $(".alert-danger").show(); 
+                      $(".alert-danger").show(); //triggers the error message for 1.2 secs if the json returned is 0
                       document.forms["form"].reset();
                       setTimeout(function() { $("#danger").hide(); }, 1200);
                     }
