@@ -12,10 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('userdetails.create');
 });
 
-Route::resource('users','ATGController');
-Route::post('/userssave','ATGController@store');
+//Route::resource('users','ATGController');
+//Route::get('userssave','ATGController@store');
+//Route::get('usersshow','ATGController@show');
 
 
+//Route::get('apiuse','WebServicesController');

@@ -1,12 +1,11 @@
 
-@if (session()->has('success'))
-  
+ 
   <div class="alert alert-dismissable alert-success">
     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Success!  {!! session()->get('success') !!}</strong> 
+    <strong>Success!</strong> 
   </div>
 
-@endif
+
 
 @if (session()->has('not_success'))
   
